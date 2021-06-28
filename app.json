@@ -1,0 +1,12 @@
+{
+  "name": "camara",
+  "displayName": "camara",
+  "expo": {
+    "name": "camara",
+    "slug": "camara",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
