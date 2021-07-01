@@ -84,7 +84,7 @@ const App = () => {
 
   useEffect(() => {
     getLocation();
-  }, [gps]);
+  }, [gps, getLocation]);
 
   const getLocation = async () => {
     let { status } = await Location.requestForegroundPermissionsAsync();
